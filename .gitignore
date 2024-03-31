@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/ptt-ข้อสอบ/v17
+/.vs
+/Client/.vscode
+/node_modules
+/Services/bin/Debug/net8.0
+/Services/obj
+/WebApi/.vs/WebApi
+/WebApi/bin/Debug/net8.0
+/WebApi/obj
