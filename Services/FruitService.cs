@@ -49,7 +49,7 @@ namespace Services
             var data = _memoryCache.Get<List<FruitModel>>("fruit");
             if (data != null)
             {
-                reults = data.Where(t => string.IsNullOrEmpty(name) || t.FruitName.Contains(name)).ToList();
+                reults = data.Where(t => string.IsNullOrWhiteSpace(name) || t.FruitName.Contains(name)).ToList();
             }
             else
             {
