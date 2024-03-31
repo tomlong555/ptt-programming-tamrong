@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "ng-openapi-gen": "^0.51.0",
+    "primeng": "^17.12.0"
+  }
+}
